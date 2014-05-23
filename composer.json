@@ -1,0 +1,25 @@
+{
+    "name": "hearst-digital/horde-text-diff",
+    "description": "Engine for performing and rendering text diffs",
+    "homepage": "http://pear.horde.org",
+    "authors": [
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org",
+            "role": "lead"
+        },
+        {
+            "name": "Jan Schneider",
+            "email": "jan@horde.org",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Horde": "lib/"
+        }
+    }
+}
